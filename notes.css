@@ -1,0 +1,62 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing : border-box ;
+}
+
+.container{
+width : 100% ;
+min-height : 100vh ;
+background : linear-gradient(135deg , #cf9aff , #95c0ff) ;
+color : #fff ;
+padding-top : 4% ;
+padding-left : 10% ;
+}
+.note {
+    color : purple ;
+}
+.notesheading{
+    font-size : 50px ;
+    margin : 50px auto ;
+    text-shadow : 3px 3px 10px rgb(0, 0, 0) ;
+}
+.buttonn {
+    font-size : 20px ;
+    box-shadow : 3px 3px 50px black ;
+    border-radius : 20px ;
+    padding : 15px 15px ;
+    background-color: rgb(172, 0, 172);
+    color : white ;
+    cursor : pointer ;
+}
+i {
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-radius : 5px 
+}
+.delete {
+    border-bottom: 4px solid rgb(255, 0, 0);
+    border-radius : 5px ;
+    position : absolute ;
+    bottom : 0px ;
+    right : 15px ;
+    border-radius : 5px ;
+    cursor : pointer ;
+    height : 40px ;
+    width : 40px ;
+}
+
+.inputbox {
+    position : relative ;
+    width : 100% ;
+    max-width : 400px ;
+    min-height : 150px  ;
+    max-height : 1000px ;
+    background: #fff ;
+    color : #333;
+    padding : 20px ;
+    margin : 20px 0;
+    outline : none ;
+    border-radius : 10px ;
+    overflow-x: scroll ; 
+}
+
